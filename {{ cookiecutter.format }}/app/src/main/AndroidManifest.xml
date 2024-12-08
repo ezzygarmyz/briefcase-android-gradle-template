@@ -18,6 +18,7 @@
         <activity
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:name="org.beeware.android.MainActivity"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
             android:exported="true" {{ cookiecutter.android_manifest_activity_attrs_extra_content }}>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
